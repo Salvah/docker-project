@@ -1,0 +1,12 @@
+{
+  "name": "docker-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -L src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
