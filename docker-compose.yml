@@ -7,11 +7,6 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app
-    environment:
-        MYSQL_DATABASE: docker
-        MYSQL_HOST: mysql
-        MYSQL_PASSWORD: salvah
-        MYSQL_USER: root
 
   mysql:
       image: mysql:8.0
@@ -20,7 +15,6 @@ services:
       environment:
         MYSQL_ROOT_PASSWORD: salvah
         MYSQL_DATABASE: docker
-
 
 volumes:
   docker-mysql-data:
